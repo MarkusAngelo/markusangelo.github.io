@@ -1,0 +1,86 @@
+.folders {
+	text-align: center;
+	margin: 5% 8%;
+	padding: 2%;
+	border-radius: 20px;
+}
+
+#folder23 {
+	display: block;
+}
+
+#folder22,
+#folder21,
+#others {
+	display: none;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(41, 85, 59);
+	transition: 0.5s;
+}
+
+a:hover {
+	color: #1d2711;
+}
+
+.artefact {
+	width: 80%;
+	object-fit: cover;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	min-height: 60vh;
+	max-height: 60vh;
+	padding: 0;
+}
+
+.rowPic {
+	margin: 4%;
+	padding: 5%;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	border-radius: 20px;
+	background-color: rgba(97, 79, 64, 0.534);
+}
+
+.btn-year {
+	background-color: #61764b;
+	border-radius: 80px;
+	transition: 0.5s;
+	color: #f1dec9;
+	margin-bottom: 20%;
+	border: 0;
+	width: 100%;
+	display: block;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.btns {
+	position: fixed;
+	left: -5%;
+	top: 20%;
+	transition: 0.5s;
+	z-index: 1;
+}
+
+.btn-year:hover {
+	background-color: #9ba17b;
+	color: #504a44;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+		rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+		rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+	margin-left: 50%;
+}
+
+.otherPics .row {
+	margin: 15px;
+}
+
+.row img {
+	width: 50%;
+}
+.images {
+	cursor: pointer;
+}
+.otherPics {
+	display: none;
+}
